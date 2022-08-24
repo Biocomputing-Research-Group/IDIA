@@ -15,7 +15,7 @@ A IDIA tool to generate pseudo-spectra from data independent acquisition (DIA) d
 
 ## User Manual
 
-Download the executable Java JAR file. Run it as:
+Download the source code and import them into Eclipse. Export executable Java JAR file. Run JAR file as:
 
 ```
 java -jar -Xmx16G IDIA.jar mzMXL_file idia.params
@@ -24,8 +24,6 @@ java -jar -Xmx16G IDIA.jar mzMXL_file idia.params
 mzXML_file: mzXML format mass spectrum data
 
 idia.params: the parameters of IDIA
-
-or you can download the source code and import them into eclipse.
 
 ## Toy example of IDIA
 
@@ -56,7 +54,9 @@ You convert files from mzML format to mzXML formate by msconvert.exe from Proteo
 
 ### Run IDIA
 
-You can run IDIA as the command line:
+Export executable Java JAR file (IDIA.jar) from Eclipse.
+
+Run IDIA as the command line:
 
 ```
 java -jar -Xmx16G IDIA.jar 18300_REP2_500ng_HumanLysate_SWATH_1.mzXML idia.se_params
