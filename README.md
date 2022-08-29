@@ -29,7 +29,7 @@ idia.params: the parameters of IDIA
 
 ### Data Source of the Toy Example
 
-Download the data via the PRIDE repository PXD001587.The UPS2 DIA data files:
+Download the data via the PRIDE repository PXD001587. The human DIA data files:
 
 18300_REP2_500ng_HumanLysate_SWATH_1.wiff
 
