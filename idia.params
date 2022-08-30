@@ -52,7 +52,7 @@ SE.SmoothTimeMZ = 0.02
 SE.SmoothMZ = 0.02
 
 #combine isotopice traces from two methods
-SE.SimilarityTwoMethods = 0.5
+SE.SimilarityTwoMethods = 0.3
 
 #Isolation window setting
 #The current version supports the following window type: SWATH (fixed window size), V_SWATH (variable SWATH window)
