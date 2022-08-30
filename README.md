@@ -44,9 +44,9 @@ Download the AB MS Data Converter: <https://www.sciex.com/form-pages/sw-download
 The manual of AB MS Data Converter: <https://download.sciex.com/sciex-ms-data-converter-user-guide-en.pdf?_ga=2.238304643.2059936003.1661275969-1581161357.1661016015>
 Command line syntax:
 
-'''
+```
 AB_SCIEX_MS_Converter WIFF "18186_REP2_4pmol_UPS2_SWATH_1.wiff" -profile MZML "18186_REP2_4pmol_UPS2_SWATH_1.mzML"
-'''
+```
 
 #### Second step
 
