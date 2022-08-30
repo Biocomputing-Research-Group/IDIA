@@ -29,11 +29,11 @@ idia.params: the parameters of IDIA
 
 ### Data Source of the Toy Example
 
-Download the data via the PRIDE repository PXD001587. The human DIA data files:
+Download the data via the PRIDE repository PXD001587. The UPS2 DIA data files:
 
-18300_REP2_500ng_HumanLysate_SWATH_1.wiff
+18186_REP2_4pmol_UPS2_SWATH_1.wiff
 
-18300_REP2_500ng_HumanLysate_SWATH_1.wiff.scan
+18186_REP2_4pmol_UPS2_SWATH_1.wiff.scan
 
 ### Converting Raw Data
 
@@ -45,7 +45,7 @@ The manual of AB MS Data Converter: <https://download.sciex.com/sciex-ms-data-co
 Command line syntax:
 
 '''
-AB_SCIEX_MS_Converter WIFF "18300_REP2_500ng_HumanLysate_SWATH_1.wiff" -profile MZML "18300_REP2_500ng_HumanLysate_SWATH_1.mzML"
+AB_SCIEX_MS_Converter WIFF "18186_REP2_4pmol_UPS2_SWATH_1.wiff" -profile MZML "18186_REP2_4pmol_UPS2_SWATH_1.mzML"
 '''
 
 #### Second step
@@ -59,13 +59,13 @@ Export executable Java JAR file (IDIA.jar) from Eclipse.
 Run IDIA as the command line:
 
 ```
-java -jar -Xmx16G IDIA.jar 18300_REP2_500ng_HumanLysate_SWATH_1.mzXML idia.se_params
+java -jar -Xmx16G IDIA.jar 18186_REP2_4pmol_UPS2_SWATH_1.mzXML idia.se_params
 ```
 
 The results:
 
-18300_REP2_500ng_HumanLysate_SWATH_1_Q1.mgf and 18300_REP2_500ng_HumanLysate_SWATH_1_Q2.mgf
-18300_REP2_500ng_HumanLysate_SWATH_1_Q1.mzML and 18300_REP2_500ng_HumanLysate_SWATH_1_Q2.mzML
+18186_REP2_4pmol_UPS2_SWATH_1_Q1.mgf and 18186_REP2_4pmol_UPS2_SWATH_1_Q2.mgf
+18186_REP2_4pmol_UPS2_SWATH_1_Q1.mzML and 18186_REP2_4pmol_UPS2_SWATH_1_Q2.mzML
 
 There are two types of results (mfg and mzML format). Q1 and Q2 are the different quality of the precursor isotopic envelopes.
 
