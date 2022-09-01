@@ -71,7 +71,7 @@ There are two types of results (mfg and mzML format). Q1 and Q2 are the differen
 
 ### Peptide and Protein Identification
 
-You can run the database searching engine, Comet, on each pseudo-spectra file followed by PeptideProphet and iProphet to identify peptides. Then you can run ProteinProphet with the results of iProphet to identify proteins. You can apply target-decoy strategies to identify peptides and proteins with 1% FDR.
+You can run the database searching engine, Comet, on each pseudo-spectra file followed by PeptideProphet and iProphet to identify peptides. Then you can run ProteinProphet with the results of iProphet to identify proteins. You can apply target-decoy strategy to identify peptides and proteins with 1% FDR.
 
 ## Feedback
 
