@@ -1,6 +1,6 @@
 # IDIA
 
-A IDIA tool to generate pseudo-spectra from data independent acquisition (DIA) data mass spectrometry-based proteomics data. The critical innovation of IDAT is that IDIA integrates two isotopic trace detection strategies and employs B-spline and Gaussian filters to help extract high-quality pseudo-spectra from the complex DIA data.
+A IDIA tool to generate pseudo-spectra from data independent acquisition (DIA) data mass spectrometry-based proteomics data. The critical innovation of IDIA is that it integrates two isotopic trace detection strategies and employs B-spline and Gaussian filters to help extract high-quality pseudo-spectra from the complex DIA data.
 
 ## Setup
 
